@@ -1,4 +1,3 @@
-password_df.to_csv("docs/exports/password_audit_sample.csv", index=False)
 import streamlit as st
 import pandas as pd
 

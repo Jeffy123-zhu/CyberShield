@@ -1,7 +1,3 @@
-import os
-
-os.makedirs("docs/exports", exist_ok=True)
-
 import streamlit as st
 from modules import traffic_monitor, phishing_check, password_audit
 

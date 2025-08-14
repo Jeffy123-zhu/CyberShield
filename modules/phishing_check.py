@@ -1,4 +1,3 @@
-results_df.to_csv("docs/exports/phishing_check_sample.csv", index=False)
 import streamlit as st
 import pandas as pd
 import tldextract

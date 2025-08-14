@@ -1,5 +1,3 @@
-df.to_csv("docs/exports/traffic_log_sample.csv", index=False)
-
 import streamlit as st
 import pandas as pd
 import random
