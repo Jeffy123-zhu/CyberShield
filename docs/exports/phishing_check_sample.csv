@@ -1,0 +1,6 @@
+URL,Domain,Result
+example.com,example.com,Benign
+login-secure-paypa1.com,paypal.com,Suspicious
+update-info-chasebank.com,chase.com,Suspicious
+mit.edu,mit.edu,Benign
+verify-your-appleid.com,apple.com,Suspicious
