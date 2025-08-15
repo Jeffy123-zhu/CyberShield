@@ -5,10 +5,10 @@ import tldextract
 SUSPICIOUS_KEYWORDS = ["login", "verify", "account", "secure", "update"]
 
 def run():
-    st.title("钓鱼网址检测")
+    st.title("phishing site monitoring")
 
-    urls = st.text_area("输入网址（每行一个）：")
-    if st.button("检测"):
+    urls = st.text_area("Enter the URL（one per line）：")
+    if st.button("check"):
         results = []
         for url in urls.splitlines():
             if not url.strip():
