@@ -1,21 +1,40 @@
 # CyberShield
 
 ## Overview
-CyberShield is a project I built in high school to practice and understand basic cybersecurity concepts.  
-It shows how threats like unusual traffic, phishing links, and weak passwords can be detected and explained in a simple, visual way.  
+CyberShield is a project I built independently in high school to practice basic cybersecurity concepts.  
+It shows how threats like unusual traffic, phishing links, weak passwords, and network vulnerabilities can be detected and visualized.  
 
-## Features
-- **Traffic Monitor (Simulation)** – generates sample packets and displays them with charts.  
+## Features & Demos
+
+- **Traffic Monitor (Simulation)** – generates sample network packets and displays traffic charts.  
+  ![Traffic Monitor Demo](traffic_monitor_demo.png)
+
 - **Phishing URL Check** – flags suspicious URLs using keyword matching.  
-- **Weak Password Audit** – tests inputs against a list of common weak passwords.  
+  ![Phishing Check Demo](phishing_check_demo.png)
+
+- **Weak Password Audit** – tests inputs against common weak passwords.  
+  ![Password Audit Demo](password_audit_demo.png)
+
+- **Port Scanning Simulation** – visualizes open ports on a target host.  
+  ![Port Scan Demo](port_scan.png)
+
+- **Anomaly Detection Chart** – summarizes unusual activity.  
+  ![Anomaly Chart](anomaly_chart.png)
+
+- **Dashboard Overview** – central interface showing all metrics.  
+  ![Dashboard](dashboard.png)
+
+> All demos can be run locally with Python; no external servers are required.
 
 ## How It Works
-Written in Python with a few common libraries:  
-- `scapy` for simulating packets  
-- `pandas` for handling and exporting data  
-- `matplotlib` for visualization  
+Written in Python using:  
+- `scapy` – simulates and analyzes network packets  
+- `pandas` – handles and exports data  
+- `matplotlib` – creates visualizations  
+
+Sample data is dynamically generated and exportable as CSV, making the project reproducible.
 
 ## Reflection
-This was my first full project combining programming with cybersecurity ideas.  
-It’s simple, but I learned how small scripts can model real issues.  
-In the future, I want to add more advanced detection, possibly using machine learning.
+This was my first full project combining programming and cybersecurity.  
+It demonstrates how small scripts can model real-world security issues.  
+I plan to expand it in the future with more advanced detection, possibly using machine learning.
