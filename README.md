@@ -1,8 +1,8 @@
 # CyberShield
 
 ## Project Overview
-I developed **CyberShield**, a student-friendly network security visualization tool, independently during high school.  
-This project demonstrates my hands-on skills in network monitoring, phishing detection, and password auditing using real and simulated data.
+CyberShield is a small project I built in high school to explore how basic cybersecurity tools work in practice.  
+I wanted something simple that could show network activity and common security risks in a way that students like me could understand.
 
 ## Key Features
 - **Traffic Monitor (Simulation Mode)** – Displays simulated network traffic in real time, helping visualize potential threats.  
@@ -23,7 +23,11 @@ This project demonstrates my hands-on skills in network monitoring, phishing det
 ## Sample Database Files
 - [Traffic Monitor CSV](docs/exports/traffic_log_sample.csv)  
 - [Phishing Check CSV](docs/exports/phishing_check_sample.csv)  
-- [Password Audit CSV](docs/exports/password_audit_sample.csv)  
+- [Password Audit CSV](docs/exports/password_audit_sample.csv)
+
+## Project Overview
+CyberShield is a small project I built in high school to explore how basic cybersecurity tools work in practice.  
+I wanted something simple that could show network activity and common security risks in a way that students like me could understand.
 
 ## How to Run
 pip install -r requirements.txt
