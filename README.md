@@ -30,5 +30,6 @@ CyberShield is a small project I built in high school to explore how basic cyber
 I wanted something simple that could show network activity and common security risks in a way that students like me could understand.
 
 ## How to Run
-pip install -r requirements.txt
-streamlit run app.py
+pip install -r requirements.txt 
+
+python -m streamlit run app.py
