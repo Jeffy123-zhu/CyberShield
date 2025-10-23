@@ -25,11 +25,9 @@ I wanted something simple that could show network activity and common security r
 - [Phishing Check CSV](docs/exports/phishing_check_sample.csv)  
 - [Password Audit CSV](docs/exports/password_audit_sample.csv)
 
-## Project Overview
-CyberShield is a small project I built in high school to explore how basic cybersecurity tools work in practice.  
-I wanted something simple that could show network activity and common security risks in a way that students like me could understand.
 
 ## How to Run
 pip install -r requirements.txt 
 
 python -m streamlit run app.py
+thank you for watching.
